@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    border: 1px solid;
+    width: 500px;
+    margin: 100px auto 0;
+}
+
+input,
+.btn {
+    display: block;
+    margin: 20px auto;
+}
+
+.btn {
+    background-color: rgb(40, 121, 235);
+    border: none;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+input {
+    padding: 7px 5px;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid black;
+    width: 70%;
+}
+
+input:focus {
+    box-shadow: 3px 3px 10px black;
+}
